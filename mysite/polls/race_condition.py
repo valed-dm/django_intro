@@ -1,3 +1,5 @@
+"""Source: https://bovage.hashnode.dev/how-to-avoid-race-condition-in-django"""
+
 import threading
 
 from django.db.models import F
