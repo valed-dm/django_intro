@@ -8,7 +8,7 @@ urlpatterns = [
     path("", views.IndexView.as_view(), name="index"),
     # ex: /polls/5/
     # DetailView generic view expects the primary key value captured from the URL to be called "pk"
-    path("<int:pk>/", views.DeiailView.as_view(), name="detail"),
+    path("<int:pk>/", views.DetailView.as_view(), name="detail"),
     # ex: /polls/5/results/
     path("<int:pk>/results/", views.ResultsView.as_view(), name="results"),
     # ex: /polls/5/vote/
