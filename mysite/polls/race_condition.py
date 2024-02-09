@@ -10,6 +10,7 @@ from .models import Choice, Question
 def like():
     que = Question.objects.first()
     option = que.choice_set.first()
+    # option.votes += 1
     option.votes = F("votes") + 1
     option.save()
 
