@@ -50,6 +50,11 @@ updated_values = {"unit": unit, "qty": qty}
 [<img src="mysite/images/questions.png" width="1000"/>]()
 [<img src="mysite/images/change_question.png" width="1000"/>]()
 
+еще один пример:
+https://github.com/valed-dm/cookbook/blob/dev/images/img_07.png
+
+[<img src="mysite/images/img_07.png" width="1000"/>]()
+
 
 - Django Debug Toolbar
 [<img src="mysite/images/debug_toolbar.png" width="1000"/>]()
@@ -57,3 +62,6 @@ updated_values = {"unit": unit, "qty": qty}
 
 - создание пакета приложения
 [<img src="mysite/images/django_polls_installed.png" width="1000"/>](mysite/images/django_polls_installed.png)
+
+
+Джанго много не бывает. Очень интересный и полезный пример.
